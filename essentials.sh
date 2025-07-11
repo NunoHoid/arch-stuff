@@ -10,7 +10,6 @@ firewalld
 git
 github-cli
 go
-gopls
 gwenview
 haruna
 konsole
@@ -18,32 +17,25 @@ krita
 kwalletmanager
 less
 libreoffice-fresh
-lua-language-server
 nano
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
 ntfs-3g
+odin
 okular
 pacman-contrib
 partitionmanager
 plasma-meta
-pyright
 qbittorrent
 reflector
-ruff
+rust
+sudo
 ttf-jetbrains-mono
-typescript
-typescript-language-server
 unrar
 unzip
-vscode-css-languageserver
-vscode-html-languageserver
-vscode-json-languageserver
-yaml-language-server
 zed
 zig
-zls
 "
 
 sudo pacman -S --needed $essentials
