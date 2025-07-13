@@ -1,9 +1,9 @@
-sudo reflector --country Portugal --protocol https --save /etc/pacman.d/mirrorlist --sort score
+reflector --country Portugal --protocol https --save /etc/pacman.d/mirrorlist --sort score
 
-sudo pacman -Syyu
-sudo pacman -Rns $(pacman -Qdtq)
+pacman -Syyu
+pacman -Rns $(pacman -Qdtq)
 
-sudo paccache -rk1
-sudo paccache -ruk0
+paccache -rk1
+paccache -ruk0
 
-sudo DIFFPROG="git diff" pacdiff
+DIFFPROG="git diff" pacdiff
