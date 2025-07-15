@@ -1,4 +1,9 @@
 {
+  "locale_config": {
+    "kb_layout": "pt-latin1",
+    "sys_enc": "UTF-8",
+    "sys_lang": "en_GB"
+  },
   "packages": [
     "amd-ucode",
     "ark",
