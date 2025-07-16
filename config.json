@@ -35,6 +35,7 @@
     "pipewire-jack",
     "pipewire-pulse",
     "plasma-meta",
+    "power-profiles-daemon",
     "qbittorrent",
     "reflector",
     "sof-firmware",
@@ -44,5 +45,5 @@
     "zed"
   ],
   "parallel_downloads": 5,
-  "services": ["bluetooth", "firewalld", "sddm"]
+  "services": ["bluetooth", "firewalld", "power-profiles-daemon", "sddm"]
 }
