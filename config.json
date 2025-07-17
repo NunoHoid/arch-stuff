@@ -4,6 +4,9 @@
     "sys_enc": "UTF-8",
     "sys_lang": "en_GB"
   },
+  "mirror_config": {
+    "optional_repositories": ["multilib"]
+  },
   "packages": [
     "amd-ucode",
     "ark",
