@@ -49,5 +49,6 @@
     "zed"
   ],
   "parallel_downloads": 5,
-  "services": ["bluetooth", "firewalld", "power-profiles-daemon", "sddm"]
+  "services": ["bluetooth", "firewalld", "power-profiles-daemon", "sddm"],
+  "swap": false
 }
